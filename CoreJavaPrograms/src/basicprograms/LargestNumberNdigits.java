@@ -10,20 +10,23 @@ public class LargestNumberNdigits {
 		int c = input.nextInt();
 		int d = input.nextInt();
 
-		int largenumber = largeNumber(a, b, c, d);
-		System.out.println(largenumber);
+		largeNumber(a, b, c, d);
+
 	}
 
-	public static int largeNumber(int a, int b, int c, int d) {
+	public static void largeNumber(int a, int b, int c, int d) {
 		if (a > b && a > c && a > d) {
-			return a;
+			System.out.println("A is Large : " + a);
+
 		} else if (b > c && b > d) {
-			return b;
+			System.out.println("B is Large : " + b);
+
 		} else if (c > d) {
-			return c;
+			System.out.println("C is Large : " + c);
+
 		} else {
-			return d;
+			System.out.println("D is Large : " + d);
+
 		}
 	}
-
 }

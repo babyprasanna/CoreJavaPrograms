@@ -9,7 +9,7 @@ public class AddTwoNumbers {
 		int b = input.nextInt();
 		int sum = addTwoNumbers(a, b);
 	
-		System.out.println("sum is " + sum);
+		System.out.println("sum of  " + a + " + " + b + " = " +sum);
 	}
 
 	public static int addTwoNumbers(int a, int b) {

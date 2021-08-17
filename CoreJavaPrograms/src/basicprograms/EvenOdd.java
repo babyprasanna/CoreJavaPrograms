@@ -9,9 +9,9 @@ public class EvenOdd {
 
 		boolean flag = evenOdd(num);
 		if (flag == true) {
-			System.out.println("EVEN");
+			System.out.println("Given Number : " + num + " is EVEN ");
 		} else {
-			System.out.println("ODD");
+			System.out.println("Given Number : " + num + " is ODD");
 		}
 	}
 

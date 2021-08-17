@@ -9,7 +9,7 @@ public class IndividualNumber {
 
 		int number = individualNumber(num);
 		{
-			System.out.println(number);
+			System.out.println("Given Number is : " + num + " sum after individual number : " + number);
 		}
 	}
 

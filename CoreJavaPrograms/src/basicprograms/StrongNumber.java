@@ -7,30 +7,35 @@ public class StrongNumber {
 		Scanner input = new Scanner(System.in);
 		int num = input.nextInt();
 
-		int result = strongNumber(num);
+		boolean flag = strongNumber(num);
 
-		if (result == num) {
-			System.out.println("Strong Number");
+		if (flag == true) {
+			System.out.println(" Given Number : "+ num + " Strong Number");
 		} else {
-			System.out.println("Not Strong Number");
+			System.out.println("Given Number : " + num + " Not Strong Number");
 		}
 	}
 
-	public static int strongNumber(int num) {
-		int sum = 0, result = 0;
-		while (num > 0) {
+	public static boolean strongNumber(int num) {
+		int sum = 0, result = 0, temp;
+		temp = num;
+		while (temp > 0) {
 			int remainder = 0;
-			remainder = num % 10;
+			remainder = temp % 10;
 			result = 1;
 			for (int i = remainder; i > 0; i--) {
 
 				result = (result * i);
 			}
-			num = num / 10;
+			temp = temp / 10;
 			sum = sum + result;
 
 		}
-		return sum;
+		if (sum == num) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 }

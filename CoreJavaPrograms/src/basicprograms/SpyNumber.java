@@ -10,9 +10,9 @@ public class SpyNumber {
 		boolean flag = spyNumber(num);
 
 		if (flag == true) {
-			System.out.println("Spy Number");
+			System.out.println("Given Number " + num + " is Spy Number");
 		} else {
-			System.out.println("Not Spy Number");
+			System.out.println("Given Number " + num + " is Not Spy Number");
 		}
 	}
 
@@ -25,8 +25,8 @@ public class SpyNumber {
 			mul *= remainder;
 			num = num / 10;
 		}
-		System.out.println(sum);
-		System.out.println(mul);
+		System.out.println("Sum is : " + sum);
+		System.out.println("Multiplicatin is : " + mul);
 		
 		if (sum == mul) {
 			return true;

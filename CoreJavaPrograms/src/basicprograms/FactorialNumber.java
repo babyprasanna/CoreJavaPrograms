@@ -9,7 +9,7 @@ public class FactorialNumber {
 		int num = input.nextInt();
 		
 		int factorial = factorialOfNumbner(num);
-		System.out.println(factorial);
+		System.out.println("Given Number : " + num + " factorial is : " + factorial);
 		
 	}
 	public static int factorialOfNumbner(int num)
