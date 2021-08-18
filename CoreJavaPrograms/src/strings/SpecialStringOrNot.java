@@ -1,29 +1,37 @@
 package strings;
 
+import java.util.Scanner;
+
 public class SpecialStringOrNot {
 	public static void main(String[] args) {
-		String str = "am cool";
-		//String str = "Raj is string";
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter String : ");
+		String string = input.nextLine();
+		System.out.println("String is : " + string);
+
 		boolean flag = false;
 
-		for (int i = 0; i < str.length() - 1; i++) {
-			char first = str.charAt(i);
-			char second = str.charAt(i + 1);
+			for (int i = 0; i < string.length() - 1; i++) {
 
-			if (isVowel(first) && isVowel(second)) {
+			char first = string.charAt(i);
+			char second = string.charAt(i + 1);
+
+			if (isOwel(first) && isOwel(second)) {
 				flag = true;
 				break;
 			}
-		}
+		} 
 		if (flag) {
-			System.out.println(str + " is a special string");
+			System.out.println(string + " : is a special string");
 		} else {
-			System.out.println(str + " is not a special string");
+			System.out.println(string + " : is not a special string");
 		}
 
 	}
 
-	public static boolean isVowel(char letter) {
+	private static boolean isOwel(char letter) {
+		
+
 		if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' || letter == 'A'
 				|| letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U') {
 
@@ -32,8 +40,6 @@ public class SpecialStringOrNot {
 		} else {
 
 			return false;
-
 		}
-
 	}
 }

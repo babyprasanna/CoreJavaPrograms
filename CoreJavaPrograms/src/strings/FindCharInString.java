@@ -1,6 +1,6 @@
 package strings;
 
-public class FindCharInStringMethod {
+public class FindCharInString {
 	public static void main(String[] args) {
 
 		String str = "Raj Am Cool";
