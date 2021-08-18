@@ -5,27 +5,35 @@ import java.util.Scanner;
 public class ParlindromOrNot {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Number : " );
 		int num = input.nextInt();
-		System.out.println(num);
+		System.out.println("Before reverse Of number is : " + num);
 
-		int result = palindromeOrNor(num);
-		if (num == result) {
-			System.out.println("Palindrome");
+		boolean flag = false;
+		boolean result = palindromeOrNor(num);
+
+		if(result == true) {
+			System.out.println(num + " : Number is Palindrome");
 		} else {
-			System.out.println("Not palindrome");
+			System.out.println(num + " : Number is Not Palindrome");
 		}
 	}
 
-	public static int palindromeOrNor(int num) {
-		int reverse = 0, remainder = 0;  // no  need to num = temp
-		
-		while (num > 0) {
-			remainder = num % 10;
+	public static boolean palindromeOrNor(int number) {
+		int reverse = 0, remainder = 0, temp;
+		temp = number;
+		while (temp > 0) {
+			remainder = temp % 10;
 			reverse = (reverse * 10) + remainder;
-			num = num / 10;
+			temp = temp / 10;
 		}
-		System.out.println(reverse);
-		return reverse;
+		System.out.println("After Reverse of number is : " + reverse);
+		
+		if (number == reverse) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 }

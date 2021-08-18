@@ -12,7 +12,7 @@ public class PalliondroneString {
 		}
 		System.out.println("After Reverse String Is : " + str3);
 
-		if (str3.equals(str)) // euqals Check content same in str and str 3
+		if (str.equals(str3)) // euqals Check content same in str and str 3
 		{
 			System.out.println("Parllondrone");
 		} else {

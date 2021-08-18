@@ -21,6 +21,9 @@ public class HelloWorld {
 			str2.append(str1.charAt(i));
 		}
 		System.out.println(str2);
-
+		System.out.println( "String Count : " + str.length());
+		
+		//System.out.println(str1.indexOf(3,5));
+		
 	}
 }

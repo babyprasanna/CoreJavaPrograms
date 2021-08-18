@@ -7,7 +7,7 @@ public class DetermineCharNumSplChatInString {
 		for (int i = 0; i <= str.length(); i++) {
 			char c = str.charAt(i);
 			{
-				if (c >= 65 && c <= 90 || c >= 97 && c <= 122) {
+				if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122)) {
 					System.out.println(c + " is Character");
 					
 				} else if (c >= 47 && c <= 57) {
