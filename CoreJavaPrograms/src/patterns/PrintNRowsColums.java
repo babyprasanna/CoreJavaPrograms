@@ -1,6 +1,18 @@
 package patterns;
 
 import java.util.Scanner;
+/**
+ * This Class Prints " * "
+ * Sample Input - n = 4
+ 
+ *  *  *  *  
+ *  *  *  *  
+ *  *  *  *  
+ *  *  *  *  
+ 
+ * @author prasa
+ *
+ */
 
 public class PrintNRowsColums {
 	public static void main(String[] args) {
@@ -10,6 +22,11 @@ public class PrintNRowsColums {
 		printRowsColumsN(n);
 
 	}
+	/**
+	 * Thsi Method Print " * "
+	 * 
+	 * @param n - Number
+	 */
 
 	public static void printRowsColumsN(int n) {
 		for (int i = 1; i <= n; i++) {

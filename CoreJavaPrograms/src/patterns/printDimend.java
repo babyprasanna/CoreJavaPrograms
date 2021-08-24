@@ -2,6 +2,19 @@ package patterns;
 
 import java.util.Scanner;
 
+/**
+ * This Class Print " * "
+ * 
+ * Sample Input - n = 4
+ 
+ *    *    *    *   
+   *    *    *   
+     *    *   
+       *   
+ * 
+ * @author prasa
+ *
+ */
 public class printDimend {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -9,6 +22,10 @@ public class printDimend {
 
 		dimendPrint(n);
 	}
+	/**
+	 * This Method Print " * "
+	 * @param n Number
+	 */
 
 	public static void dimendPrint(int n) {
 		for (int i = 1; i <= n; i++) {

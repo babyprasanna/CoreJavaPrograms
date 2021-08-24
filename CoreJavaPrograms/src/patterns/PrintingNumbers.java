@@ -1,6 +1,18 @@
 package patterns;
 
 import java.util.Scanner;
+/**
+ * This Class Print Numbers 
+ * Sample Input - n = 4
+
+1  1  1  1  
+2  2  2  2  
+3  3  3  3  
+4  4  4  4 
+
+ * @author prasa
+ *
+ */
 
 public class PrintingNumbers {
 	public static void main(String[] args) {
@@ -9,6 +21,10 @@ public class PrintingNumbers {
 
 		printnNumber(n);
 	}
+	/**
+	 * This Method Print Numbers
+	 * @param n - Number
+	 */
 
 	public static void printnNumber(int n) {
 		for (int i = 1; i <= n; i++) {

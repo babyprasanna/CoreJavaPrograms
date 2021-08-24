@@ -1,6 +1,18 @@
 package patterns;
 
 import java.util.Scanner;
+/**
+ * This class prints " * "
+ * Sample input - n = 4
+ * 
+    *  *  *  *
+    *  *  *
+    *  *
+    *
+ *  
+ * @author prasa
+ *
+ */
 
 public class PintRowLessN {
 	public static void main(String[] args) {
@@ -9,6 +21,11 @@ public class PintRowLessN {
 
 		printLowRow(n);
 	}
+/**
+ * This Method Print " * "
+ * 
+ * @param n - Number
+ */
 
 	public static void printLowRow(int n) {
 		for (int i = 1; i <= n; i++) {

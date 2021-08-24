@@ -1,6 +1,19 @@
 package patterns;
 
 import java.util.Scanner;
+/**
+ * This Class Prints " * "
+ * Sample Input -  n = 5
+ 
+ *  *  *  *  *  
+ *           *  
+ *           *  
+ *           *  
+ *  *  *  *  *  
+ 
+ * @author prasa
+ *
+ */
 
 public class PrintingBox {
 	public static void main(String[] args) {
@@ -9,7 +22,11 @@ public class PrintingBox {
 
 		printBox(n);
 	}
-
+/**
+ * This Method Print " * "
+ * 
+ * @param n - Number
+ */
 	public static void printBox(int n) {
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++)

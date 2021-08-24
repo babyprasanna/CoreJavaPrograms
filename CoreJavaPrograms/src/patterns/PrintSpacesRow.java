@@ -1,6 +1,18 @@
 package patterns;
 
 import java.util.Scanner;
+/**
+ * This Class Print " * "
+ * Sample Input - n = 4
+
+ *  *  *  *  
+    *  *  *  
+       *  *  
+          * 
+          
+ * @author prasa
+ *
+ */
 
 public class PrintSpacesRow {
 	public static void main(String[] args) {
@@ -9,6 +21,10 @@ public class PrintSpacesRow {
 
 		printSpaceRow(n);
 	}
+	/**
+	 * This Method Print " * "
+	 * @param n - Number
+	 */
 
 	public static void printSpaceRow(int n) {
 
