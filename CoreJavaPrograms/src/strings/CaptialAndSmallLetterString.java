@@ -2,6 +2,14 @@ package strings;
 
 import java.util.Scanner;
 
+/**
+ * This Program Find The Capital And Small Letters In Given String. And give
+ * Number of Capital Letter And Small letters count in given String.
+ * 
+ * @author prasa
+ *
+ */
+
 public class CaptialAndSmallLetterString {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -10,12 +18,19 @@ public class CaptialAndSmallLetterString {
 
 		System.out.println("Given String is : " + str);
 
-		isCaptialAndSmallLetterString(str);
+		captialAndSmallLetterString(str);
 	}
 
-	private static void isCaptialAndSmallLetterString(String str) {
-		
-		int count = 0,count1 = 0;
+	/**
+	 * This Method to check Capital and Small Letters in given String. And Gives the
+	 * Count Of Number Of Small And Capital Letters In String.
+	 * 
+	 * @param str - The String Noting Return- print Capital And Small Letters with
+	 *            Count.
+	 */
+	private static void captialAndSmallLetterString(String str) {
+
+		int count = 0, count1 = 0;
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
 

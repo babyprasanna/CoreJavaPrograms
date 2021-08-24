@@ -2,6 +2,14 @@ package strings;
 
 import java.util.Scanner;
 
+/**
+ * Find The Given String Number Of Characters and Numbers And Special
+ * Characters.
+ * 
+ * @author prasa
+ *
+ */
+
 public class FindCharNumOrSpelCahrInString {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -10,10 +18,17 @@ public class FindCharNumOrSpelCahrInString {
 
 		System.out.println("String is : " + str);
 
-		isCharNumOrSpelCah(str);
+		charNumOrSpelCah(str);
 	}
 
-	public static void isCharNumOrSpelCah(String str) {
+	/**
+	 * This Method Check The Given String existed Characters and Special Characters
+	 * and Numbers.
+	 * 
+	 * @param str - string Noting return print Characters with count and Numbers
+	 *            With Count and Special Characters With Count.
+	 */
+	public static void charNumOrSpelCah(String str) {
 		int count = 0, count1 = 0, count2 = 0;
 
 		for (int i = 0; i < str.length(); i++) {
