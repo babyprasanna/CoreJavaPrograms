@@ -14,7 +14,8 @@ public class No_Of_Times_Occurs_Elements_Array {
 
 		int array[] = new int[5];
 		int count = 0, element = 0;
-		System.out.println();
+		
+		System.out.println("Enter Array Size : ");
 		element = input.nextInt();
 		System.out.println("Enter Elements Into Array : ");
 		for (int i = 0; i < array.length; i++) {

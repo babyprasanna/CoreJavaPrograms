@@ -1,15 +1,8 @@
-package arrays;
+package array;
 
 import java.util.Scanner;
 
-/**
- * This class Print values if value is 22 exclude that 22 print other elements
- * 
- * @author prasa
- *
- */
-
-public class Expect_value_print_Array {
+public class Print_Array_BreakWith_Element {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -19,13 +12,19 @@ public class Expect_value_print_Array {
 		for (int i = 0; i < array.length; i++) {
 			array[i] = sc.nextInt();
 			if (array[i] == 22) {
-				i--;
+				break;
 			}
 		}
-		for (int i = 0; i < array.length; i++) {
-			System.out.println("Elements in array : " + array[i]);
-		}
+		elementBreakLoop(array);
 
 	}
 
+	private static void elementBreakLoop(int[] number)
+
+	{
+		System.out.println("Elements in Array : ");
+		for (int i = 0; i < number.length; i++) {
+			System.out.print(number[i] + " ");
+		}
+	}
 }
