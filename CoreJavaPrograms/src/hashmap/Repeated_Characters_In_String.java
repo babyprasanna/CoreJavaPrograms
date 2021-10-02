@@ -8,27 +8,22 @@ public class Repeated_Characters_In_String {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		HashMap<String, Integer> string = new HashMap();
+		HashMap<Character, Integer> string = new HashMap();
 
-		String[] str = new String[5];
-		System.out.println("Enter Strings into Array : ");
+		String str = "hello";
 
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
 
-			for (char str2 : c) {
-
-				if (string.containsKey(str2)) {
-					int value = string.get(str2);
-					string.put(str2, value + 1);
-				} else {
-					string.put(str2, 1);
-				}
+			if (string.containsKey(c)) {
+				int value = string.get(c);
+				string.put(c, value + 1);
+			} else {
+				string.put(c, 1);
 			}
-
 		}
 
-		for (Entry<String, Integer> repeatedcharacters : string.entrySet()) {
+		for (Entry<Character, Integer> repeatedcharacters : string.entrySet()) {
 			System.out.println(repeatedcharacters.getKey() + " -- >" + repeatedcharacters.getValue());
 		}
 	}

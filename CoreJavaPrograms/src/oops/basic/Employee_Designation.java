@@ -1,4 +1,4 @@
-package oopsbasic;
+package oops.basic;
 
 public class Employee_Designation {
 

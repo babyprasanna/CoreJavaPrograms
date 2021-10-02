@@ -1,12 +1,12 @@
-package oopsbasic;
+package oops.basic;
 
 /**
- * This Class About Clothes for Men and Boy
+ * This Class About Clothes for Women and Girls
  * 
  * @author prasa
  *
  */
-public class Mens_Boy_Dress {
+public class Clothing_Women_Girls {
 
 	String clothsname;
 	long sizenumber;
@@ -18,5 +18,4 @@ public class Mens_Boy_Dress {
 	String type;
 	String traditional;
 	String modern;
-
 }

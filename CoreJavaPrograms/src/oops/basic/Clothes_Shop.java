@@ -1,4 +1,4 @@
-package oopsbasic;
+package oops.basic;
 
 /**
  * This Class About Clothes Shop Details and Shops Locations

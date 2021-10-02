@@ -14,36 +14,28 @@ public class Find_EvenOdd_Parlindrone_PrimeNumbers_Array {
 		for (int i = 0; i < array.length; i++) {
 			array[i] = sc.nextInt();
 		}
-		HashMap<String, Integer> evenodd = evenOdd(array);
-		
-		if(evenodd)
-		{
-			for(Entry<String, Integer> number : evenodd.entrySet())
-			{
-					System.out.println("EVEN Numbers are : " + number);
-			}else
-				{
-					System.out.println("ODD Numbers are : " + number);
-				}
-		}
-	}
+		HashMap<String, Integer> evenodd = new HashMap();
+		evenodd.put("Even", 0);
+		evenodd.put("Odd", 0);
 
-	private static HashMap<String, Integer> evenOdd(int[] array) {
+		for (int numbe : array) {
 
-		HashMap evenoddnumber = new HashMap();
-		boolean falg = false;
-		int count = 0;
+			if (evenOdd(numbe)) {
 
-		for (int number : array) {
-			if (number % 2 == 0) {
-				falg = true;
+				evenodd.put("Even", evenodd.get("Even")+1);
+			}else {
+				evenodd.put("Odd", evenodd.get("Odd")+1);
 			}
 		}
-		if (falg == true) {
-			evenoddnumber.put(array, count++);
-		} else {
-			evenoddnumber.put(array, count++);
+
+	}
+
+	private static boolean evenOdd(int number) {
+
+		if (number % 2 == 0) {
+			return true;
 		}
-		return evenoddnumber;
+
+		return false;
 	}
 }
