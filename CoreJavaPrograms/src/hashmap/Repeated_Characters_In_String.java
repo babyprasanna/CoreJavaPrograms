@@ -10,7 +10,7 @@ public class Repeated_Characters_In_String {
 
 		HashMap<Character, Integer> string = new HashMap();
 
-		String str = "hello";
+		String str = "hello_am_cool";
 
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
