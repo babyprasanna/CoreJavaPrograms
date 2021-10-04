@@ -2,14 +2,14 @@ package oops.basic;
 
 public class Employee {
 
-	long emp_no;
+	long empno;
 	String name;
 	int age;
-	String DOB = "DD/MM/YYYY";
-	String work_role;
-	long Sal;
+	String dob = "DD/MM/YYYY";
+	String workrole;
+	long sal;
 	int experience;
-	int joing_year;
-	boolean permanent_Emp = false;
+	int joingyear;
+	boolean permanentemp = false;
 	String shifts;
 }

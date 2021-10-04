@@ -1,7 +1,7 @@
 package oops.basic2;
 
 /**
- * This Class About Employee Designation Details
+ * This Class Contains Designation details
  * 
  * @author prasa
  *
@@ -9,13 +9,20 @@ package oops.basic2;
 
 public class Designation {
 
-	int resigned_teams;
-	long resigned_count;
-	String last_dates = "MM/DD/YYYY";
-	boolean no_of_approved_resignations;
+	int experience;
+	String startdate = "DD/MM/YYYY";
+	String enddate = "DD/MM/YYYY";
+	long finalsettelment;
+	char rating;
+	long maxsal;
+	long minsal;
+	long basicsal;
 
 	public String toString() {
-		return "Resigned Teams = " + resigned_teams + "\n" + "Resigned People Count = " + resigned_count + "\n"
-				+ "Last Date = " + last_dates + "\n" + "Approved Resignations = " + no_of_approved_resignations + "\n";
+		return "Employee Experience = " + experience + "\n" + "Designation Start Date = " + startdate + "\n"
+				+ "designation End Date = " + enddate + "\n" + "Final Settelment = " + finalsettelment + "\n"
+				+ "Rating of Employee = " + rating + "\n" + "Maximum Sal = " + maxsal + "\n" + "Minimum Sal = " + minsal
+				+ "\n" + "Basic Sal = " + basicsal + "\n";
 	}
+
 }

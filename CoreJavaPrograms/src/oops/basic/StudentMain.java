@@ -8,7 +8,7 @@ import java.util.Date;
  * @author prasa
  *
  */
-public class Student_Details_Main {
+public class StudentMain {
 	public static void main(String[] args) {
 		Student s1 = new Student();
 

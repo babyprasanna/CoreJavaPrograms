@@ -9,13 +9,14 @@ package oops.basic2;
 
 public class College {
 
-	boolean privatecollege = false;
-	boolean govermentcollege = false;
-	long college_code;
-	long college_students_count;
+	String collegename;
+	long collegecode;
+	long stundentscount;
+	long staffcount;
 
 	public String toString() {
-		return "Private College = " + privatecollege + "\n" + "Goverment College = " + govermentcollege + "\n" + "College Code"
-				+ college_code + "\n" + "No Of Students = " + college_students_count + "\n";
+
+		return "College Name = " + collegename + "\n" + "College Code = " + collegecode + "\n" + "No.Of Students = "
+				+ stundentscount + "\n" + "No.Of Staff = " + staffcount + "\n";
 	}
 }

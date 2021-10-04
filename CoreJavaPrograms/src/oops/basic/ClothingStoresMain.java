@@ -8,9 +8,9 @@ package oops.basic;
  *
  */
 
-public class Clothing_Stores_Main {
+public class ClothingStoresMain {
 	public static void main(String[] args) {
-		Clothing_Women_Girls cws = new Clothing_Women_Girls();
+		ClothingWomenGirls cws = new ClothingWomenGirls();
 
 		cws.clothsname = "Culotte dress";
 		cws.sizenumber = 32;
@@ -29,7 +29,7 @@ public class Clothing_Stores_Main {
 				+ "Cloth type : " + cws.type + "\n" + "Traditional Dress : " + cws.traditional + "\n"
 				+ "Modern Dress : " + cws.modern + "\n");
 
-		Clothing_Women_Girls cws2 = new Clothing_Women_Girls();
+		ClothingWomenGirls cws2 = new ClothingWomenGirls();
 		cws2.clothsname = "Babydoll dress";
 		cws2.sizenumber = 35;
 		cws2.size = "Small";
@@ -47,7 +47,7 @@ public class Clothing_Stores_Main {
 				+ "Cloth type : " + cws2.type + "\n" + "Traditional Dress : " + cws2.traditional + "\n"
 				+ "Modern Dress : " + cws2.modern + "\n");
 
-		Clothing_Women_Girls cws3 = new Clothing_Women_Girls();
+		ClothingWomenGirls cws3 = new ClothingWomenGirls();
 
 		cws3.clothsname = "Churidaar";
 		cws3.sizenumber = 36;
@@ -66,7 +66,7 @@ public class Clothing_Stores_Main {
 				+ "Cloth type : " + cws3.type + "\n" + "Traditional Dress : " + cws3.traditional + "\n"
 				+ "Modern Dress : " + cws3.modern + "\n");
 
-		Mens_Boy_Dress mbd = new Mens_Boy_Dress();
+		MensBoyDress mbd = new MensBoyDress();
 
 		mbd.clothsname = "T-Shirt";
 		mbd.sizenumber = 45;
@@ -85,54 +85,54 @@ public class Clothing_Stores_Main {
 				+ "Cloth type : " + mbd.type + "\n" + "Traditional Dress : " + mbd.traditional + "\n"
 				+ "Modern Dress : " + mbd.modern + "\n");
 
-		Clothes_Shop cs = new Clothes_Shop();
+		ClothesShop cs = new ClothesShop();
 
-		cs.clothesshop_name = "Rajendra cloths";
+		cs.name = "Rajendra cloths";
 		cs.location = "HYD";
 		cs.shopcode = 22060;
-		cs.shop_type = "mens_styles";
+		cs.shoptype = "mens_styles";
 		cs.ownername = "Rajendra.K";
 		cs.poductscount = 1369542;
 		cs.nearaddress = "Hi-Tech city";
-		cs.min_cost = 2695;
-		cs.max_cost = 22549;
+		cs.mincost = 2695;
+		cs.maxcost = 22549;
 
-		System.out.println("Cloth Names : " + cs.clothesshop_name + "\n" + "Location Placed city  : " + cs.location
-				+ "\n" + "Code :" + cs.shopcode + "\n" + "Shop Type : " + cs.shop_type + "\n" + "Name of Owner : "
+		System.out.println("Cloth Names : " + cs.name + "\n" + "Location Placed city  : " + cs.location + "\n"
+				+ "Code :" + cs.shopcode + "\n" + "Shop Type : " + cs.shoptype + "\n" + "Name of Owner : "
 				+ cs.ownername + "\n" + "Stock & Modeles count : " + cs.poductscount + "\n" + "Address Point : "
-				+ cs.nearaddress + "\n" + "Cloth Minimum Costs starts : " + cs.min_cost + "\n"
-				+ "Maximum Cloths Cost : " + cs.max_cost + "\n");
+				+ cs.nearaddress + "\n" + "Cloth Minimum Costs starts : " + cs.mincost + "\n" + "Maximum Cloths Cost : "
+				+ cs.maxcost + "\n");
 
-		Clothes_Shop cs1 = new Clothes_Shop();
+		ClothesShop cs1 = new ClothesShop();
 
-		cs1.clothesshop_name = "Rekha cloths";
+		cs1.name = "Rekha cloths";
 		cs1.location = "HYD";
 		cs1.shopcode = 26092020;
-		cs1.shop_type = "baby_styles & wholesale_Store";
+		cs1.shoptype = "baby_styles & wholesale_Store";
 		cs1.ownername = "RekhaRam";
 		cs1.poductscount = 126489;
 		cs1.nearaddress = "Sangareddy";
-		cs1.min_cost = 1525;
-		cs1.max_cost = 21949;
+		cs1.mincost = 1525;
+		cs1.maxcost = 21949;
 
-		System.out.println("Cloths Shop Names : " + cs1.clothesshop_name + "\n" + "Location Placed city  : "
-				+ cs1.location + "\n" + "Code :" + cs1.shopcode + "\n" + "Shop Type : " + cs1.shop_type + "\n"
-				+ "Name of Owner : " + cs1.ownername + "\n" + "Stock & Modeles count : " + cs1.poductscount + "\n"
-				+ "Address Point : " + cs1.nearaddress + "\n" + "Cloth Minimum Costs starts : " + cs1.min_cost + "\n"
-				+ "Maximum Cloths Cost : " + cs1.max_cost + "\n");
+		System.out.println("Cloths Shop Names : " + cs1.name + "\n" + "Location Placed city  : " + cs1.location + "\n"
+				+ "Code :" + cs1.shopcode + "\n" + "Shop Type : " + cs1.shoptype + "\n" + "Name of Owner : "
+				+ cs1.ownername + "\n" + "Stock & Modeles count : " + cs1.poductscount + "\n" + "Address Point : "
+				+ cs1.nearaddress + "\n" + "Cloth Minimum Costs starts : " + cs1.mincost + "\n"
+				+ "Maximum Cloths Cost : " + cs1.maxcost + "\n");
 
-		Management_ClothStores ms = new Management_ClothStores();
+		ManagementClothStores ms = new ManagementClothStores();
 
 		ms.shopcode = 2260;
 		ms.ownersname = "Rajendra";
 		ms.management = "Own_shop";
 		ms.staff = 98;
-		ms.sal_min = 60254;
-		ms.sal_max = 25149;
+		ms.salmin = 60254;
+		ms.salmax = 25149;
 
 		System.out.println("Shop Code : " + ms.shopcode + "\n" + "Owner Name : " + ms.ownersname + "\n"
 				+ "Management Details :" + ms.management + "\n" + "Staff Members : " + ms.staff + "\n"
-				+ "Minimum salarys : " + ms.sal_min + "\n" + "Maximum Salarys: " + ms.sal_max + "\n");
+				+ "Minimum salarys : " + ms.salmin + "\n" + "Maximum Salarys: " + ms.salmax + "\n");
 
 	}
 }

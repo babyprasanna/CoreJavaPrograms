@@ -6,13 +6,13 @@ package oops.basic;
  * @author prasa
  *
  */
-public class Management_ClothStores {
+public class ManagementClothStores {
 
 	int shopcode;
 	String ownersname;
 	String management;
 	int staff;
-	long sal_min;
-	long sal_max;
+	long salmin;
+	long salmax;
 
 }

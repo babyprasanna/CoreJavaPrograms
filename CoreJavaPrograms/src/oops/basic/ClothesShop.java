@@ -7,16 +7,16 @@ package oops.basic;
  *
  */
 
-public class Clothes_Shop {
+public class ClothesShop {
 
-	String clothesshop_name;
+	String name;
 	String location;
 	long shopcode;
-	String shop_type;
+	String shoptype;
 	String ownername;
 	long poductscount;
 	String nearaddress;
-	int min_cost;
-	int max_cost;
+	int mincost;
+	int maxcost;
 
 }

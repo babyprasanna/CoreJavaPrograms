@@ -1,7 +1,15 @@
-package oops.basic2;
+package oops.basic;
 
-public class Students_Details {
-	int roll_no;
+/**
+ * This class contains Students Details
+ * 
+ * @author prasa
+ *
+ */
+
+public class StudentsDetails {
+
+	int rollno;
 	String name;
 	long year;
 	int semister;
@@ -9,7 +17,7 @@ public class Students_Details {
 	boolean jobholder = false;
 
 	public String toString() {
-		return "Roll_Number = " + roll_no + "\n" + "Name of Student = " + name + "\n" + "Year Of Student = " + year
+		return "Roll_Number = " + rollno + "\n" + "Name of Student = " + name + "\n" + "Year Of Student = " + year
 				+ "\n" + "Semister = " + semister + "\n" + "Percentage of Student = " + percentage + "\n"
 				+ "Job Holder Status = " + jobholder + "\n";
 	}

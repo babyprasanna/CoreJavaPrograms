@@ -1,6 +1,13 @@
-package oops.basic2;
+package oops.basic;
 
-public class Project {
+/**
+ * This Class Contains Employee_Project Details
+ * 
+ * @author prasa
+ *
+ */
+
+public class EmployeesProject {
 
 	int projectcode;
 	String projectname;
@@ -14,5 +21,4 @@ public class Project {
 				+ teamname + "\n" + "Team Members = " + teammembers + "\n" + "Project Start Date = " + startdate + "\n"
 				+ "Project End Date = " + enddate + "\n";
 	}
-
 }
