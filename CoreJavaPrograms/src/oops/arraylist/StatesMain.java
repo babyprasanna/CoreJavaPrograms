@@ -1,6 +1,13 @@
-package oops.basic3;
+package oops.arraylist;
 
 import java.util.ArrayList;
+
+/**
+ * This Class Contains State Details
+ * 
+ * @author prasa
+ *
+ */
 
 public class StatesMain {
 
@@ -65,7 +72,7 @@ public class StatesMain {
 
 		town2.townname = "Velpur";
 		town2.code = 55221;
-		
+
 		Town town3 = new Town();
 
 		town3.townname = "Undarajavaram";
@@ -84,7 +91,7 @@ public class StatesMain {
 		state1.town = townslist;
 
 		System.out.println(state1);
-		
+
 		ArrayList<Town> townslist1 = new ArrayList();
 
 		townslist1.add(town1);

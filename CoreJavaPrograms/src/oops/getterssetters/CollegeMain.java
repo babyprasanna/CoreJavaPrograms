@@ -1,4 +1,11 @@
-package oops.basic4;
+package oops.getterssetters;
+
+/**
+ * This Class Contains College and Branch, Teacher and Student Details
+ * 
+ * @author prasa
+ *
+ */
 
 public class CollegeMain {
 
@@ -24,7 +31,7 @@ public class CollegeMain {
 		teacher.setTeacherid(50122);
 		teacher.setTeachersubject("Java");
 		teacher.setNoofclasses(3);
-		teacher.student = s1;
+		teacher.setStudent(s1);
 
 		System.out.println(teacher);
 
@@ -33,7 +40,7 @@ public class CollegeMain {
 		teacher1.setTeacherid(15201);
 		teacher1.setTeachersubject("C ++");
 		teacher1.setNoofclasses(4);
-		teacher1.student = s2;
+		teacher1.setStudent(s1);
 
 		System.out.println(teacher1);
 
@@ -57,7 +64,7 @@ public class CollegeMain {
 		sasi.setCollegename("Sasi Institute of Technology and Engineering");
 		sasi.setStudentcount(5664);
 		sasi.setBuildingscount(9);
-		sasi.branch = cse;
+		sasi.setBranch(cse);
 
 		System.out.println(sasi);
 
@@ -67,8 +74,7 @@ public class CollegeMain {
 		seetha.setCollegename("Smt B.Seetha Polytechnic");
 		seetha.setStudentcount(9464);
 		seetha.setBuildingscount(4);
-		seetha.branch = cse;
-		seetha.branch = ece;
+		seetha.setBranch(ece);
 
 		System.out.println(seetha);
 

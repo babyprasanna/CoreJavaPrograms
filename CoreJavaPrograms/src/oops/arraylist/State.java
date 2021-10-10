@@ -1,8 +1,8 @@
-package oops.basic3;
+package oops.arraylist;
 
 import java.util.ArrayList;
 
-import oops.basic2.Town;
+import oops.classtostring.Town;
 
 /**
  * This Class Contains State Details
@@ -17,7 +17,7 @@ public class State {
 	String statename;
 	long peoplecount;
 
-	ArrayList<oops.basic3.Town> town; // class
+	ArrayList<oops.arraylist.Town> town; // class
 
 	public String toString() {
 

@@ -1,4 +1,11 @@
-package oops.basic4;
+package oops.getterssetters;
+
+/**
+ * This Class Contains Branch Details
+ * 
+ * @author prasa
+ *
+ */
 
 public class Branch {
 

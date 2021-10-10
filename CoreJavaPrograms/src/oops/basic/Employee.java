@@ -1,5 +1,12 @@
 package oops.basic;
 
+/**
+ * This Class Contains Employee Details
+ * 
+ * @author prasa
+ *
+ */
+
 public class Employee {
 
 	long empno;

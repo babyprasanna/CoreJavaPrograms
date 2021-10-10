@@ -1,4 +1,11 @@
-package oops.basic2;
+package oops.classtostring;
+
+/**
+ * THis Class Contains Project Details
+ * 
+ * @author prasa
+ *
+ */
 
 public class Project {
 

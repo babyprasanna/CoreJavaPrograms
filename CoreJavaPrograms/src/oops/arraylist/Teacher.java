@@ -1,4 +1,4 @@
-package oops.basic3;
+package oops.arraylist;
 
 /**
  * This Class Contains Teacher Details and Having Student Class

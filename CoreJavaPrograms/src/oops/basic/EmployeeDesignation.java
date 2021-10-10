@@ -1,5 +1,12 @@
 package oops.basic;
 
+/**
+ * This Class Contains Employee Designation Details
+ * 
+ * @author prasa
+ *
+ */
+
 public class EmployeeDesignation {
 
 	long no;
@@ -13,5 +20,5 @@ public class EmployeeDesignation {
 	long maxsal;
 	long minsal;
 	long basicsal;
-	
+
 }

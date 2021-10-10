@@ -1,5 +1,11 @@
 package oops.basic;
 
+/**
+ * This Class Contains Student College Details
+ * 
+ * @author prasa
+ *
+ */
 public class StudentCollege {
 
 	long collegecode;
@@ -10,10 +16,9 @@ public class StudentCollege {
 
 	public String toString() {
 
-		return "College Code = " + collegecode + "\n" + "Coallege Name : " + collegename + "\n"
-				+ "College Loacation = " + location + "\n" + "Branches = " + branchs + "\n"
-				+ "No.Of Students in College = " + studentscount + "\n";
+		return "College Code = " + collegecode + "\n" + "Coallege Name : " + collegename + "\n" + "College Loacation = "
+				+ location + "\n" + "Branches = " + branchs + "\n" + "No.Of Students in College = " + studentscount
+				+ "\n";
 
-		
 	}
 }

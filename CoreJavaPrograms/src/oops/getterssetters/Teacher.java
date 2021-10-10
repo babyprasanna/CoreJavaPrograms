@@ -1,4 +1,11 @@
-package oops.basic4;
+package oops.getterssetters;
+
+/**
+ * This Class Contains Teacher Details And Student class
+ * 
+ * @author prasa
+ *
+ */
 
 public class Teacher {
 
@@ -6,7 +13,17 @@ public class Teacher {
 	private String teachersubject;
 	private long noofclasses;
 
+	private Student student;
+
 	public Teacher() {
+	}
+
+	public Student getStudent() {
+		return student;
+	}
+
+	public void setStudent(Student student) {
+		this.student = student;
 	}
 
 	public Teacher(long teacherid, String teachersubject, long noofclasses) {
@@ -39,8 +56,6 @@ public class Teacher {
 	public void setNoofclasses(long noofclasses) {
 		this.noofclasses = noofclasses;
 	}
-
-	Student student;
 
 	public String toString() {
 		return "Teacher Id = " + teacherid + "\n" + "Subject Name = " + teachersubject + "\n" + "No Of Classes a Day = "

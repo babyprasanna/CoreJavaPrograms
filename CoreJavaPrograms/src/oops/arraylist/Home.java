@@ -1,4 +1,4 @@
-package oops.basic3;
+package oops.arraylist;
 
 import java.util.ArrayList;
 import java.util.Random;

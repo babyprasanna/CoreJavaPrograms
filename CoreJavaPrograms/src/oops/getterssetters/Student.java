@@ -1,4 +1,11 @@
-package oops.basic4;
+package oops.getterssetters;
+
+/**
+ * This Class Contains Student Details
+ * 
+ * @author prasa
+ *
+ */
 
 public class Student {
 

@@ -1,4 +1,11 @@
-package oops.basic4;
+package oops.getterssetters;
+
+/**
+ * This Class Contains College Details and Branch Class
+ * 
+ * @author prasa
+ *
+ */
 
 public class College {
 
@@ -7,7 +14,15 @@ public class College {
 	private long studentcount;
 	private long buildingscount;
 
-	Branch branch;
+	private Branch branch;
+
+	public Branch getBranch() {
+		return branch;
+	}
+
+	public void setBranch(Branch branch) {
+		this.branch = branch;
+	}
 
 	public College() {
 	}

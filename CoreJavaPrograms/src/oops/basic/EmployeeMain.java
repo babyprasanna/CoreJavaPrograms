@@ -3,6 +3,13 @@ package oops.basic;
 import java.util.*;
 import java.util.Date;
 
+/**
+ * 
+ * This Class Contains Employee Details
+ * 
+ * @author prasa
+ *
+ */
 public class EmployeeMain {
 	public static void main(String[] args) {
 		Employee emp = new Employee();

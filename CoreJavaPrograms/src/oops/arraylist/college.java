@@ -1,4 +1,4 @@
-package oops.basic3;
+package oops.arraylist;
 
 /**
  * This Class Contains College Details and Branch Class
