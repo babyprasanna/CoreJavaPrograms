@@ -1,7 +1,7 @@
 package oops.basic2;
 
 /**
- * This Class Contains Students Details Branch class
+ * This Class Contains Students Details and Branch class
  * 
  * @author prasa
  *
