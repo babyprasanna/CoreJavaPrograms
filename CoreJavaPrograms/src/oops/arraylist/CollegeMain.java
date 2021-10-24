@@ -121,5 +121,6 @@ public class CollegeMain {
 		teacher2.student = studeatils2;
 
 		System.out.println(teacher2);
+		
 	}
 }

@@ -77,6 +77,6 @@ public class CollegeMain {
 		seetha.setBranch(ece);
 
 		System.out.println(seetha);
-
+		
 	}
 }
