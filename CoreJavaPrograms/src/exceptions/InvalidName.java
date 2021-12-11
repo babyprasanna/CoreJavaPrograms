@@ -1,6 +1,6 @@
 package exceptions;
 
-public class InvalidName extends RuntimeException {
+public class InvalidName extends RuntimeException  {
 
 	String ErrorMessage = "";
 

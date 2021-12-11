@@ -1,6 +1,8 @@
 package oops.basicprograms;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map.Entry;
 
 /**
  * This Class Contains Branch And Student Details
@@ -72,6 +74,21 @@ public class StudentMain {
 		stu.add(student3);
 		stu.add(student4);
 
+		HashMap<Integer, Student> map = new HashMap<>();
+
+		map.put(student1.getStudentid(), student1);
+		map.put(student2.getStudentid(), student2);
+		map.put(student3.getStudentid(), student3);
+		map.put(student4.getStudentid(), student4);
+
+		for (Entry<Integer, Student> maplist : map.entrySet()) {
+
+			System.out.println(maplist);
+
+			// System.out.println("Key ---> " + student1.getStudentid() + " " + "Values --->
+			// " + student1);
+		}
+
 		Branch br = null;
 		long max = 0;
 		for (Branch b : list) {
@@ -121,7 +138,8 @@ public class StudentMain {
 				countgradb++;
 			}
 		}
-		System.out.println("Grades Of A Students Count is : " + countgrada + "\t Grades Of B Students count is : " + countgradb);
+		System.out.println(
+				"Grades Of A Students Count is : " + countgrada + "\t Grades Of B Students count is : " + countgradb);
 
 		int countbrn = 0;
 		int countbrn1 = 0;

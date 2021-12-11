@@ -22,9 +22,19 @@ public class Repeated_Characters_In_String {
 				string.put(c, 1);
 			}
 		}
-
+		
+		int maxCount = 0;
+		char maxChar = 0;
+		
 		for (Entry<Character, Integer> repeatedcharacters : string.entrySet()) {
+			
+			if(maxCount < repeatedcharacters.getValue()) {
+				maxCount = repeatedcharacters.getValue();
+				maxChar = repeatedcharacters.getKey();
+			}
 			System.out.println(repeatedcharacters.getKey() + " -- >" + repeatedcharacters.getValue());
 		}
+		
+		System.out.println(maxChar + "  -- > " + maxCount);
 	}
 }

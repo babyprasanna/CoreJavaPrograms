@@ -1,6 +1,7 @@
 package oops.basicprograms;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * This Class Contains College and Teacher Details
@@ -41,7 +42,7 @@ public class CollegeDetailsMain {
 		teacher4.setNoofclasses(4);
 
 		ArrayList<Teacher> teacherlist = new ArrayList();
-
+		
 		teacherlist.add(teacher1);
 		teacherlist.add(teacher2);
 		teacherlist.add(teacher3);
@@ -76,7 +77,7 @@ public class CollegeDetailsMain {
 
 		clgname.add(sasi);
 		clgname.add(vishnu);
-		clgname.add(seetha);
+		clgname.add(seetha);	
 
 		int countsubsbj = 0;
 
